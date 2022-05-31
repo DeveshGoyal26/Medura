@@ -1,0 +1,153 @@
+{
+  "Sofa": [
+    {
+      "id": 1,
+      "image_1": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/chair-1-yellow.jpg",
+      "image_2": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/chair-1-red.jpg",
+      "image_3": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/chair-1-purple.jpg",
+      "name": "Chair 1",
+      "price": 134,
+      "description": "Beautiful, elegant Chair. Will lighten up any room in the house.",
+      "color": ["#cdad40", "#FF6347", "#ff69b4"]
+    },
+    {
+      "id": 2,
+      "image_1": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/chair-2-purple.jpg",
+      "image_2": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/chair-2-green.jpg",
+      "image_3": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/chair-2-blue.jpg",
+      "name": "Chair 2",
+      "price": 160,
+      "description": "Beautiful, elegant Chair. Will lighten up any room in the house.",
+      "color": ["#800080", "#6e998c", "#ff69b4"]
+    },
+    {
+      "id": 3,
+      "image_1": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/chair-4-blue.jpg",
+      "image_2": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/chair-4-red.jpg",
+      "image_3": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/chair-4-yellow.jpg",
+      "name": "Chair 3",
+      "price": 360,
+      "description": "Beautiful, elegant Chair. Will lighten up any room in the house.",
+      "color": ["#346b8a", "#FF6347", "#cdad40"]
+    },
+    {
+      "id": 4,
+      "image_1": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/stool-1.jpg",
+      "image_2": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/stool-1-blue.jpg",
+      "name": "Stool 1",
+      "price": 145,
+      "description": "Beautiful contempory look, this stool creates a statement.",
+      "color": ["#654321", "#346b8a"]
+    },
+    {
+      "id": 5,
+      "image_1": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/stool-2-black.jpg",
+      "image_2": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/stool-2-yellow.jpg",
+      "image_3": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/stool-2-blue.jpg",
+      "name": "Stool 2",
+      "price": 84,
+      "description": "Simple and easy to clean. Robust so will last you years!",
+      "color": ["#000000", "#6e998c", "#346b8a"]
+    },
+    {
+      "id": 6,
+      "image_1": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/lamp-1-yellow.jpg",
+      "image_2": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/lamp-red.jpg",
+      "image_3": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/lamp-1-turq.jpg",
+      "name": "Lamp 1",
+      "price": 76,
+      "description": "Beautiful, elegant standing lamp. Will light up any room in the house.",
+      "color": ["#808080", "#654321", "#346b8a"]
+    },
+    {
+      "id": 7,
+      "image_1": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/lamp-2.jpg",
+      "image_2": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/lamp-2-blue.jpg",
+      "image_3": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/lamp-2-brown.jpg",
+      "name": "Lamp 2",
+      "price": 25,
+      "description": "Simplistic lamp for next to your bed. The three legs represent strength and cleanliness.",
+      "color": ["#808080", "#346b8a", "#654321"]
+    },
+    {
+      "id": 8,
+      "image_1": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/light-1-chrome.jpg",
+      "image_2": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/light-1-blue.jpg",
+      "image_3": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/light-1-red.jpg",
+      "name": "Lamp 3",
+      "price": 43,
+      "description": "Reflect the style of the room with this beauty.",
+      "color": ["#654321", "#346b8a", "#FF6347"]
+    },
+    {
+      "id": 9,
+      "image_1": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/table-1-grey.jpg",
+      "image_2": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/table-1-red.jpg",
+      "image_3": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/table-1-blue.jpg",
+      "name": "Table 1",
+      "price": 75,
+      "description": "A modern, minimalistic table to add a stylish take to any room. Functional and easy to clean.",
+      "color": ["#808080", "#FF6347", "#346b8a"]
+    },
+    {
+      "id": 10,
+      "image_1": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/sofa-1-featured.jpg",
+      "image_2": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/sofa-1-blue.jpg",
+      "image_3": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/sofa-1-red.jpg",
+      "name": "Sofa 1",
+      "price": 650,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "color": ["#cdad40", "#346b8a", "#FF6347"]
+    },
+    {
+      "id": 11,
+      "image_1": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/sofa-2-blue.jpg",
+      "image_2": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/sofa-2-pink.jpg",
+      "image_3": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/sofa-2-greeb.jpg",
+      "name": "Sofa 2",
+      "price": 1350,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "color": ["#346b8a", "#ff69b4", "#6e998c"]
+    },
+    {
+      "id": 12,
+      "image_1": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/sofa-3-grey.jpg",
+      "image_2": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/sofa-3-blue.jpg",
+      "image_3": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/sofa-3-peach.jpg",
+      "name": "Sofa 3",
+      "price": 788,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "color": ["#808080", "#346b8a", "#FF6347"]
+    },
+    {
+      "id": 13,
+      "image_1": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/sofa-4-blue.jpg",
+      "image_2": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/sofa-4-red.jpg",
+      "image_3": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/sofa-4-grey.jpg",
+      "name": "Sofa 4",
+      "price": 400,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "color": ["#808080", "#FF6347", "#6e998c"]
+    },
+    {
+      "id": 14,
+      "image_1": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/sofa-5-grey.jpg",
+      "image_2": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/sofa-5-green.jpg",
+      "image_3": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/sofa-5-orange.jpg",
+      "name": "Sofa 5",
+      "price": 598,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "color": ["#808080", "#6e998c", "#654321"]
+    }
+  ],
+  "Cart": [
+    {
+      "product_id": 10,
+      "image": "https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/10/sofa-1-red.jpg",
+      "name": "Sofa 1",
+      "price": 1950,
+      "quantity": 3,
+      "id": 1
+    }
+  ]
+}

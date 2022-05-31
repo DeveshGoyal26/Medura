@@ -1,0 +1,537 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  padding: 0px !important;
+  min-height: 0px !important;
+}
+
+p {
+  margin: 0px;
+  text-align: left;
+}
+
+h2 {
+  margin: 0px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  animation: none !important;
+  justify-content: center !important;
+  margin-bottom: 50px;
+}
+
+.swiper-pagination-bullet {
+  background-color: black !important;
+  background-size: cover;
+}
+
+div[class~="swiper-slide-active"] > div {
+  animation: kenburns-bottom-out 2s ease-out reverse both;
+}
+
+div[class~="swiper-slide-active"] > div > p {
+  animation: fadeInLeft 0.8s ease-in-out;
+  animation-duration: 1s;
+}
+
+div[class~="swiper-slide-active"] > div > h2 {
+  animation: bounceInDown 0.8s ease-in-out;
+  animation-duration: 1.5s;
+}
+
+div[class~="swiper-slide-active"] > div > div:hover::before {
+  animation: grow ease 0.5s;
+  left: 0px;
+}
+
+@keyframes kenburns-bottom-out {
+  0% {
+    background-size: 100%;
+  }
+  100% {
+    background-size: 110%;
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    margin-right: 1000px;
+  }
+  100% {
+    opacity: 1;
+    margin-right: 0px;
+  }
+}
+
+@keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-2000px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(+10px);
+  }
+  80% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes grow {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+.navbtn {
+  color: black;
+  text-decoration: none;
+}
+
+.pagebuilder-column-group {
+  display: flex;
+  gap: 50px;
+  color: #868686;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.pagebuilder-column-group > div {
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  background-position: left top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  width: 80%;
+  align-self: stretch;
+}
+
+.pagebuilder-column-group > div > div > h2 {
+  color: #000000;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.animate__fadeInUp {
+  animation: fadeInUp 0.8s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+
+.et_pb_row {
+  height: 500px;
+  color: white;
+  background-image: url("https://bodycommerce-furniture.diviengine.com/wp-content/uploads/2019/09/furniture-how-made.jpg");
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  text-align: center;
+  font-size: 18px !important;
+}
+
+.et_pb_button_0 {
+  color: #000000 !important;
+  border-color: #ffffff;
+  background-color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.et_pb_button_0:hover {
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0) !important;
+  background-image: initial;
+  background-color: #000000;
+}
+@font-face {
+  font-family: "ElegantIcons";
+  src: url("./fonts/ElegantIcons.eot");
+  src: url("./fonts/ElegantIcons.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/ElegantIcons.woff") format("woff"),
+    url("./fonts/ElegantIcons.ttf") format("truetype"),
+    url("./fonts/ElegantIcons.svg#ElegantIcons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.tumbler_div::before {
+  content: "\e097";
+  font-family: "ElegantIcons";
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #00aced;
+  padding: 10px;
+  font-size: 15px;
+  color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tumbler_div:hover::before {
+  background-color: #0084b4;
+}
+
+.facebook_div:before {
+  content: "\e093";
+  font-family: "ElegantIcons";
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #3b5997;
+  padding: 10px;
+  font-size: 15px;
+  color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.facebook_div:hover::before {
+  background-color: #2d4372;
+}
+
+.linked_in:before {
+  content: "\e09d";
+  font-family: "ElegantIcons";
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0074a1;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linked_in:hover::before {
+  background-color: #006288;
+}
+
+.printrest:before {
+  content: "\e095";
+  font-family: "ElegantIcons";
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #bd081c;
+  padding: 10px;
+  font-size: 15px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.printrest:hover::before {
+  background-color: #9e0818;
+}
+
+.email:before {
+  content: "\e076";
+  font-family: "ElegantIcons";
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #738a8d;
+  padding: 10px;
+  font-size: 15px;
+  color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email:hover::before {
+  background-color: #617375;
+}
+
+.printer_div:before {
+  font-family: "ElegantIcons";
+  content: "\e0fa";
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #20292f;
+  padding: 10px;
+  font-size: 15px;
+  color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.printer_div:hover::before {
+  background-color: #000000;
+}
+
+.features > div > div:nth-of-type(1)::before {
+  font-family: "ElegantIcons";
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  animation: fadeTop 1s cubic-bezier(0.77, 0, 0.175, 1) 1;
+  font-size: 32px;
+}
+
+.features > div:nth-of-type(1) > div:nth-of-type(1)::before {
+  content: "\7d";
+}
+
+.features > div:nth-of-type(2) > div:nth-of-type(1)::before {
+  content: "\e028";
+}
+
+.features > div:nth-of-type(3) > div:nth-of-type(1)::before {
+  content: "\e030";
+}
+
+@keyframes fadeTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.rating-css div {
+  color: #346b8a;
+  font-size: 10px;
+  font-family: sans-serif;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 0;
+  width: fit-content;
+}
+.rating-css input {
+  display: none;
+}
+.rating-css input + label {
+  font-size: 15px;
+  cursor: pointer;
+}
+.rating-css input:checked + label ~ label {
+  color: #838383;
+}
+.rating-css input:checked + label ~ label::before {
+  content: "\e031";
+}
+
+.fa-star::before {
+  content: "\e033";
+  font-family: "ElegantIcons";
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "star";
+  src: url("./fonts/star.eot");
+  src: url("./fonts/star.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/star.woff") format("woff"),
+    url("./fonts/star.ttf") format("truetype"),
+    url("./fonts/star.svg#star") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "WooCommerce";
+  src: url("./fonts/WooCommerce.eot");
+  src: url("./fonts/WooCommerce.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/WooCommerce.woff") format("woff"),
+    url("./fonts/WooCommerce.ttf") format("truetype"),
+    url("./fonts/WooCommerce.svg#star") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.test::before {
+  font-family: star;
+  content: "\53\53\53\53\53" !important;
+  color: #d3ced2;
+  float: left;
+}
+
+.test > span {
+  width: 60%;
+}
+
+.test > span::before {
+  content: "SSSSS";
+  color: #000000;
+  top: 0;
+  position: relative;
+  left: 0;
+  font-family: star;
+}
+
+.Cart {
+  font-family: "ElegantIcons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  margin: 0 0 0 -50px;
+  height: 37px;
+  position: absolute;
+  z-index: 999999;
+}
+
+.Cart::before {
+  content: "\e07a";
+  top: 8px;
+  position: relative;
+}
+
+.Cart_data {
+  font-family: "Karla", Helvetica, Arial, Lucida, sans-serif;
+  min-height: 100px;
+  min-width: 500px;
+  background-color: white;
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: -292px;
+  z-index: 999999;
+  transition: all 0.3s ease;
+  box-shadow: 0px 5px 5px 0px rgb(50 50 50 / 20%);
+  opacity: 1;
+  transform: translateY(0);
+  padding: 30px 40px;
+  animation: fadeup_div 1s cubic-bezier(0.77, 0, 0.175, 1) 1;
+}
+
+.Cart:hover .Cart_data {
+  display: block;
+}
+
+@keyframes fadeup_div {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.Cart_Total_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.Cart_Total_div > button {
+  height: min-content;
+  font-family: "Karla", Helvetica, Arial, Lucida, sans-serif;
+  padding: 0.3em 1em !important;
+  color: #ffffff;
+  font-size: 20px;
+  background-color: #000000;
+  transition: color 300ms ease 0ms, background-color 300ms ease 0ms;
+  border: 2px solid #000000;
+}
+
+.Cart_Total_div > button:hover {
+  color: #000000 !important;
+  background-image: initial;
+  background-color: #ffffff;
+}
