@@ -7,7 +7,14 @@ Medura is a e-commerce furniture distributor company. Here you will find all typ
 In the project directory, you can run:
 
 ### `Screenshots`
-<img src="https://i.postimg.cc/DzMVN9H8/Medura1.png" width="90%"></img> <img src="https://i.postimg.cc/ZKhGXF7F/Medura2.png" width="90%"></img> <img src="https://i.postimg.cc/tTKKqhXb/Medura3.png" width="90%"></img> <img src="https://i.postimg.cc/5y8Z660C/Medura4.png" width="90%"></img> <img src="https://i.postimg.cc/2jvpHXwS/Medura5.png" width="90%"></img> <img src="https://i.postimg.cc/Y9LcBXB8/Medura6.png" width="90%"></img> <img src="https://i.postimg.cc/Bv69MShr/Medura7.png" width="90%"></img> <img src="https://i.postimg.cc/52pWBYm5/Medura8.png" width="90%"></img> 
+<img src="images/Medura1.png" width="90%">
+<img src="images/Medura2.png" width="90%">
+<img src="images/Medura3.png" width="90%">
+<img src="images/Medura4.png" width="90%">
+<img src="images/Medura5.png" width="90%">
+<img src="images/Medura6.png" width="90%">
+<img src="images/Medura7.png" width="90%">
+<img src="images/Medura8.png" width="90%">
 
 
 The page will reload when you make changes.\
