@@ -8,14 +8,9 @@ In the project directory, you can run:
 
 ### `Screenshots`
 [url=https://ibb.co/br4fD9L][img]https://i.ibb.co/br4fD9L/Medura5.png[/img][/url]
-![Screenshot from 2022-05-10 19-37-16.png](https://drive.google.com/file/d/1OzqqJ-G_iOcMbCdu9gdn4rrptYkAeQh1/view?usp=sharing)
-![Screenshot from 2022-05-10 19-37-16.png](https://drive.google.com/file/d/1A0Iv-uWYGOkgEeG-VgA98zG-xxqqwn_c/view?usp=sharing)
-![Screenshot from 2022-05-10 19-37-16.png](https://drive.google.com/file/d/1OzqqJ-G_iOcMbCdu9gdn4rrptYkAeQh1/view?usp=sharing)
-![Screenshot from 2022-05-10 19-37-16.png](https://drive.google.com/file/d/1XWcMpwt_buYwD-6cZ-K3Rw6UaSSFRZbv/view?usp=sharing)
-![Screenshot from 2022-05-10 19-37-16.png](https://drive.google.com/file/d/1e5paz_1VsOMPHgLHDuqQ5We8gEeaNIji/view?usp=sharing)
-![Screenshot from 2022-05-10 19-37-16.png](https://drive.google.com/file/d/1fS_cuRtsTyok9sZvp-JVgNQAzkT8G-if/view?usp=sharing)
-![Screenshot from 2022-05-10 19-37-16.png](https://drive.google.com/file/d/1yh02DYKOO-4UzaQNSlOwELmsMo_Qi-da/view?usp=sharing)
-![Screenshot from 2022-05-10 19-37-16.png](https://drive.google.com/file/d/1zrDLfdNtbxsrMqC5Z0cLe_LY8KJ3-Xgw/view?usp=sharing)
+
+
+[![Medura1.png](https://i.postimg.cc/DzMVN9H8/Medura1.png)](https://postimg.cc/t1WmZMXj)
 
 
 The page will reload when you make changes.\
