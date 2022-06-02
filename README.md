@@ -1,12 +1,32 @@
 # Medura
 
 Medura is a e-commerce furniture distributor company. Here you will find all type of furnitures and some additional products as well.
+This is one my side projects. In this project I tried to build erverything with some animation and I am happy with it. I think I 
+learned alot from it. In the future I like to try more different things in my project and explore more.
 
-## Available Scripts
+here is the link to checkout the site - [click here](https://medura.vercel.app/).
 
-In the project directory, you can run:
+## Tech Stack
+- React
+- Redux 
+- local storage
+- reqres
+- React-Router
 
-### `Screenshots`
+## Inspiration material
+- dribbble  [Furniture Ecommerce Shop](https://dribbble.com/shots/4565117-Furniture-Ecommerce-Shop-Product-Card)
+- dribbble  [Furniture Landing Page Design](https://dribbble.com/shots/15103214-Furniture-Landing-Page-Design/attachments/6835973?mode=media)
+- dribbble  [H Ecommerce Store](https://dribbble.com/shots/3145904-H-Ecommerce-Store/attachments/9671852?mode=media)
+
+## Features
+
+- Product slider for different categories
+- Product page with sorting functionality
+- Individual product page
+- Add to cart functionality
+- Login and Sign in authentication with reqres api
+
+## Screenshots
 <img src="images/Medura1.png" width="90%">
 <img src="images/Medura2.png" width="90%">
 <img src="images/Medura3.png" width="90%">
@@ -16,61 +36,7 @@ In the project directory, you can run:
 <img src="images/Medura7.png" width="90%">
 <img src="images/Medura8.png" width="90%">
 
+## Conclusions
+- I had so much fun building this website that I want to build some more. Even though I had to scrifice some of my free time to build it
+  and during that time I had so many difficulties but i am so happy with it and I am so glad that I stuck through it and made to the end.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
