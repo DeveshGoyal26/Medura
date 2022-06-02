@@ -1,15 +1,22 @@
-# Getting Started with Create React App
+# Medura
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Medura is a e-commerce furniture distributor company. Here you will find all type of furnitures and some additional products as well.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `Screenshots`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Screenshot from 2022-05-10 19-37-16.png](https://drive.google.com/file/d/1441c8ujkEgZ4gCiB8WEL1zIgGtQyyALP/view?usp=sharing)
+![Screenshot from 2022-05-10 19-37-16.png](https://drive.google.com/file/d/1A0Iv-uWYGOkgEeG-VgA98zG-xxqqwn_c/view?usp=sharing)
+![Screenshot from 2022-05-10 19-37-16.png](https://drive.google.com/file/d/1OzqqJ-G_iOcMbCdu9gdn4rrptYkAeQh1/view?usp=sharing)
+![Screenshot from 2022-05-10 19-37-16.png](https://drive.google.com/file/d/1XWcMpwt_buYwD-6cZ-K3Rw6UaSSFRZbv/view?usp=sharing)
+![Screenshot from 2022-05-10 19-37-16.png](https://drive.google.com/file/d/1e5paz_1VsOMPHgLHDuqQ5We8gEeaNIji/view?usp=sharing)
+![Screenshot from 2022-05-10 19-37-16.png](https://drive.google.com/file/d/1fS_cuRtsTyok9sZvp-JVgNQAzkT8G-if/view?usp=sharing)
+![Screenshot from 2022-05-10 19-37-16.png](https://drive.google.com/file/d/1yh02DYKOO-4UzaQNSlOwELmsMo_Qi-da/view?usp=sharing)
+![Screenshot from 2022-05-10 19-37-16.png](https://drive.google.com/file/d/1zrDLfdNtbxsrMqC5Z0cLe_LY8KJ3-Xgw/view?usp=sharing)
+
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
