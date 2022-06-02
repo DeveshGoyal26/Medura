@@ -7,8 +7,8 @@ Medura is a e-commerce furniture distributor company. Here you will find all typ
 In the project directory, you can run:
 
 ### `Screenshots`
-
-![Screenshot from 2022-05-10 19-37-16.png](https://drive.google.com/file/d/1441c8ujkEgZ4gCiB8WEL1zIgGtQyyALP/view?usp=sharing)
+[url=https://ibb.co/br4fD9L][img]https://i.ibb.co/br4fD9L/Medura5.png[/img][/url]
+![Screenshot from 2022-05-10 19-37-16.png](https://drive.google.com/file/d/1OzqqJ-G_iOcMbCdu9gdn4rrptYkAeQh1/view?usp=sharing)
 ![Screenshot from 2022-05-10 19-37-16.png](https://drive.google.com/file/d/1A0Iv-uWYGOkgEeG-VgA98zG-xxqqwn_c/view?usp=sharing)
 ![Screenshot from 2022-05-10 19-37-16.png](https://drive.google.com/file/d/1OzqqJ-G_iOcMbCdu9gdn4rrptYkAeQh1/view?usp=sharing)
 ![Screenshot from 2022-05-10 19-37-16.png](https://drive.google.com/file/d/1XWcMpwt_buYwD-6cZ-K3Rw6UaSSFRZbv/view?usp=sharing)
