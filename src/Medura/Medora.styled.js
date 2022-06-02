@@ -772,7 +772,7 @@ export const FAQ_div_or_Contect_us = styled.div`
         height: 65px;
         line-height: 65px;
         margin-bottom: 35px;
-        width: 100%;
+        width: 93%;
         padding: 10px 20px;
         border: 1px solid #dcdcdc;
         font-weight: 400;
@@ -784,7 +784,7 @@ export const FAQ_div_or_Contect_us = styled.div`
       > div {
         width: 100%;
         > textarea {
-          width: 100%;
+          width: 93%;
           max-height: 370px;
           padding: 10px 20px;
           border: 1px solid #dcdcdc;
@@ -1128,7 +1128,7 @@ export const Individual_Product = styled.div`
   }
 
   .Showing_div {
-    width: 100%;
+    /* width: 100%; */
     padding: 2% 2%;
 
     > div:nth-of-type(1) {
