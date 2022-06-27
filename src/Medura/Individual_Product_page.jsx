@@ -281,8 +281,8 @@ const Individual_Product_page = () => {
         <div className="Smilar_products">
           <h3>Similar items you may like</h3>
           <div>
-            <Link
-              to={`/Medora/Product/1`}
+            <a
+              href={`/Medora/Product/1`}
               style={{ textDecoration: "none", color: "black" }}
             >
               <div>
@@ -298,10 +298,10 @@ const Individual_Product_page = () => {
                 <p>Chair 1</p>
                 <p>£134.00</p>
               </div>
-            </Link>
+            </a>
 
-            <Link
-              to={`/Medora/Product/12`}
+            <a
+              href={`/Medora/Product/12`}
               style={{ textDecoration: "none", color: "black" }}
             >
               <div>
@@ -317,10 +317,10 @@ const Individual_Product_page = () => {
                 <p>Sofa 3</p>
                 <p>£788.00</p>
               </div>
-            </Link>
+            </a>
 
-            <Link
-              to={`/Medora/Product/6`}
+            <a
+              href={`/Medora/Product/6`}
               style={{ textDecoration: "none", color: "black" }}
             >
               <div>
@@ -336,10 +336,10 @@ const Individual_Product_page = () => {
                 <p>Lamp 1</p>
                 <p>£76.00</p>
               </div>
-            </Link>
+            </a>
 
-            <Link
-              to={`/Medora/Product/4`}
+            <a
+              href={`/Medora/Product/4`}
               style={{ textDecoration: "none", color: "black" }}
             >
               <div>
@@ -355,10 +355,10 @@ const Individual_Product_page = () => {
                 <p>Stool 1</p>
                 <p>£145.00</p>
               </div>
-            </Link>
+            </a>
 
-            <Link
-              to={`/Medora/Product/10`}
+            <a
+              href={`/Medora/Product/10`}
               style={{ textDecoration: "none", color: "black" }}
             >
               <div>
@@ -374,7 +374,7 @@ const Individual_Product_page = () => {
                 <p>Sofa 1</p>
                 <p>£650.00</p>
               </div>
-            </Link>
+            </a>
           </div>
         </div>
 

@@ -74,7 +74,7 @@ const Products = () => {
         {products &&
           products.map((el) => {
             return (
-              <NavLink key={el.id} to={`/Medora/Product/${el.id}`}>
+              <a key={el.id} href={`/Medora/Product/${el.id}`}>
                 <div>
                   <div>
                     <Product_img
@@ -87,7 +87,7 @@ const Products = () => {
                     <p>£{el.price}</p>
                   </div>
                 </div>
-              </NavLink>
+              </a>
             );
           })}
       </div>
