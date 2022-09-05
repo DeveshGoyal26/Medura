@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
-import { Individual_Product, Product_img } from "./Medora.styled";
+import { Individual_Product, Product_img } from "./Medura.styled";
 import Products_color from "./Products_color";
 import Routes_file from "./Routes_file";
 import { v4 as uuid } from "uuid";
@@ -31,7 +31,7 @@ const Individual_Product_page = () => {
 
   const Add_to_cart = () => {
     if (!token) {
-      navigate("/Medora/Login");
+      navigate("/Medura/Login");
       return;
     }
 
@@ -111,7 +111,7 @@ const Individual_Product_page = () => {
                 onClick={() => setQuantity(quantity + 1)}
               ></button>
             </div>
-            <button onClick={() => Add_to_cart()}>ADD TO CART</button>
+            <button style={{cursor: 'pointer'}} onClick={() => Add_to_cart()}>ADD TO CART</button>
             {isThere && (
               <p style={{ color: "red" }}>Product is already added to cart</p>
             )}
@@ -282,7 +282,7 @@ const Individual_Product_page = () => {
           <h3>Similar items you may like</h3>
           <div>
             <a
-              href={`/Medora/Product/1`}
+              href={`/Medura/Product/1`}
               style={{ textDecoration: "none", color: "black" }}
             >
               <div>
@@ -301,7 +301,7 @@ const Individual_Product_page = () => {
             </a>
 
             <a
-              href={`/Medora/Product/12`}
+              href={`/Medura/Product/12`}
               style={{ textDecoration: "none", color: "black" }}
             >
               <div>
@@ -320,7 +320,7 @@ const Individual_Product_page = () => {
             </a>
 
             <a
-              href={`/Medora/Product/6`}
+              href={`/Medura/Product/6`}
               style={{ textDecoration: "none", color: "black" }}
             >
               <div>
@@ -339,7 +339,7 @@ const Individual_Product_page = () => {
             </a>
 
             <a
-              href={`/Medora/Product/4`}
+              href={`/Medura/Product/4`}
               style={{ textDecoration: "none", color: "black" }}
             >
               <div>
@@ -358,7 +358,7 @@ const Individual_Product_page = () => {
             </a>
 
             <a
-              href={`/Medora/Product/10`}
+              href={`/Medura/Product/10`}
               style={{ textDecoration: "none", color: "black" }}
             >
               <div>

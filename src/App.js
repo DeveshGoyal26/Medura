@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import Medora from "./Medura/Medora";
+import Medura from "./Medura/Medura";
 import Login from "./Medura/Login";
 import Aboutus from "./Medura/Aboutus";
 import Products from "./Medura/Products";
@@ -14,17 +14,17 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Medora />} />
-        <Route path="/Medora/Login" element={<Login />} />
-        <Route path="/Medora/About_us" element={<Aboutus />} />
-        <Route path="/Medora/Products" element={<Products />} />
+        <Route path="/" element={<Medura />} />
+        <Route path="/Medura/Login" element={<Login />} />
+        <Route path="/Medura/About_us" element={<Aboutus />} />
+        <Route path="/Medura/Products" element={<Products />} />
         <Route
-          path="/Medora/Product/:id"
+          path="/Medura/Product/:id"
           element={<Individual_Product_page />}
         />
-        <Route path="/Medora/FAQ" element={<FAQ />} />
-        <Route path="/Medora/Contect_us" element={<Contect_us />} />
-        <Route path="/Medora/*" element={<Error_page />} />
+        <Route path="/Medura/FAQ" element={<FAQ />} />
+        <Route path="/Medura/Contect_us" element={<Contect_us />} />
+        <Route path="/Medura/*" element={<Error_page />} />
       </Routes>
     </div>
   );

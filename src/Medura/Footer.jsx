@@ -1,5 +1,5 @@
 import React from "react";
-import { Footer_div, Icon_div } from "./Medora.styled";
+import { Footer_div, Icon_div } from "./Medura.styled";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { brands } from "@fortawesome/fontawesome-svg-core/import.macro"; // <-- import styles to be used
 
@@ -16,9 +16,9 @@ const Footer = () => {
 
         <div>
           <div>
-            <h1>Medora</h1>
+            <h1>Medura</h1>
             <p>
-              © 2022 Medora Furniture Store
+              © 2022 Medura Furniture Store
               <br />
               Terms of Service | Privacy Policy
             </p>

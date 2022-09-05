@@ -1,5 +1,5 @@
 import React from "react";
-import { Products_colors } from "./Medora.styled";
+import { Products_colors } from "./Medura.styled";
 
 const Products_color = ({ color, switch_img, Image, index }) => {
   return (

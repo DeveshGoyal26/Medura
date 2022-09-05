@@ -11,7 +11,7 @@ const Error_page = () => {
           marginTop: "30px",
         }}
       >
-        Page Not Found <Link to="/Medora">Go To Home Page</Link>
+        Page Not Found <Link to="/Medura">Go To Home Page</Link>
       </h2>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <img

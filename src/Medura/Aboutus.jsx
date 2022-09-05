@@ -1,5 +1,5 @@
 import React from "react";
-import { Aboutus_div } from "./Medora.styled";
+import { Aboutus_div } from "./Medura.styled";
 import Routes_file from "./Routes_file";
 
 const Aboutus = () => {

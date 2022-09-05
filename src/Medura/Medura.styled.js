@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Medora_main = styled.div`
+export const Medura_main = styled.div`
   height: 100%;
   margin-top: -22px;
   background-color: #f5ece5;
@@ -135,6 +135,7 @@ export const Title = styled.div`
       background-color: #d16a1d;
       min-width: 180px;
       transition: background-color ease 800ms;
+      cursor: pointer;
     }
 
     > div:nth-child(4) > button:hover {
@@ -1451,6 +1452,7 @@ export const Cart_products = styled.div`
       background-color: #000000;
       transition: color 300ms ease 0ms, background-color 300ms ease 0ms;
       border: 2px solid #000000;
+      cursor: pointer;
 
       :hover {
         color: #000000 !important;

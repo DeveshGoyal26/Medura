@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Routes, useNavigate } from "react-router-dom";
 import Login from "./Login";
 import Aboutus from "./Aboutus";
-import Medora from "./Medora";
+import Medura from "./Medura";
 // import link from react-dom
 import { Outlet, Link } from "react-router-dom";
 import "./styles.css";
@@ -43,34 +43,34 @@ const Routes_file = () => {
               navigate("/");
             }}
           >
-            Medora
+            Medura
           </h3>
         </div>
         <div>
           <h4
             onClick={() => {
-              navigate("/Medora/About_us");
+              navigate("/Medura/About_us");
             }}
           >
             About us
           </h4>
           <h4
             onClick={() => {
-              navigate("/Medora/Products");
+              navigate("/Medura/Products");
             }}
           >
             Furniture
           </h4>
           <h4
             onClick={() => {
-              navigate("/Medora/Contect_us");
+              navigate("/Medura/Contect_us");
             }}
           >
             Contect Us
           </h4>
           <h4
             onClick={() => {
-              navigate("/Medora/FAQ");
+              navigate("/Medura/FAQ");
             }}
           >
             FAQ
@@ -78,7 +78,7 @@ const Routes_file = () => {
           <div>
             <img
               onClick={() => {
-                navigate("/Medora/Login");
+                navigate("/Medura/Login");
               }}
               width="30px"
               src={require("./Public/profile.png")}

@@ -12,7 +12,7 @@ import InputAdornment from "@mui/material/InputAdornment";
 import Visibility from "@mui/icons-material/Visibility";
 import VisibilityOff from "@mui/icons-material/VisibilityOff";
 import React, { useContext, useState } from "react";
-import { Login_div } from "./Medora.styled";
+import { Login_div } from "./Medura.styled";
 import Routes_file from "./Routes_file";
 import { Auth_provider_context } from "./Auth_login/Auth_provider";
 

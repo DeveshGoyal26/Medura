@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
-import { Cart_products } from "./Medora.styled";
+import { Cart_products } from "./Medura.styled";
 import { DELETE_FROM_CART } from "./Redux/action";
 
 const Cart_product = ({ product }) => {
@@ -12,7 +12,7 @@ const Cart_product = ({ product }) => {
 
   return (
     <Cart_products>
-      <Link to={`/Medora/Product/${product.id}`}>
+      <Link to={`/Medura/Product/${product.id}`}>
         <div>
           <img src={product.image} alt="Products Image" />
         </div>

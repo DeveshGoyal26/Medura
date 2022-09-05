@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { Image_div, SideTab, Title } from "./Medora.styled";
+import { Image_div, SideTab, Title } from "./Medura.styled";
 
 const First_page = () => {
   const navigate = useNavigate();
@@ -18,7 +18,7 @@ const First_page = () => {
           <div>
             <button
               onClick={() => {
-                navigate("/Medora/Products");
+                navigate("/Medura/Products");
               }}
             >
               Discover Now

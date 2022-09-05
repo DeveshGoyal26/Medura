@@ -10,7 +10,7 @@ import "swiper/css/autoplay";
 
 // import required modules
 import { Pagination, Autoplay } from "swiper";
-import { Middle_div, Swiper_div } from "./Medora.styled";
+import { Middle_div, Swiper_div } from "./Medura.styled";
 
 const Home_middle = () => {
   return (

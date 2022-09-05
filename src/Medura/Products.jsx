@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Product_div, Product_img } from "./Medora.styled";
+import { Product_div, Product_img } from "./Medura.styled";
 import Routes_file from "./Routes_file";
 import data from "./Data/db.json";
 
@@ -74,7 +74,7 @@ const Products = () => {
         {products &&
           products.map((el) => {
             return (
-              <a key={el.id} href={`/Medora/Product/${el.id}`}>
+              <a key={el.id} href={`/Medura/Product/${el.id}`}>
                 <div>
                   <div>
                     <Product_img
